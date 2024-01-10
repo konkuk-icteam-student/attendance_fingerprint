@@ -16,7 +16,7 @@ System Config Image
 
 ## Hardware Maintainence
 
-Wiring Imaage
+Wiring Image
 ![](./imgs/hardware_diagram.png)
 
 ## Maintainence Manual
