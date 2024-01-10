@@ -1,35 +1,35 @@
-# KU IC-Team Student Development Team
+# 건국대학교 정보운영팀 교내근로장학생 학생개발팀
 
-## Fingerprint Recognization Project
+## 지문인식 출근부 개발 프로젝트
 
 </div>
 <div align="center"><img src="https://github.com/konkuk-icteam-student/attendance_fingerprint/assets/107067111/cb9ff888-73f9-4ef8-9a3b-5401bdbf8805" alt=""/></div>
 
-## System Functionality
+## 시스템 기능
 
-Fingerprint Recogniziton -> Checked In!
+사용자 지문 인식 -> 출근/퇴근 여부 확인
 
-## System Configuration
+## 시스템 구성
 
-System Config Image
+시스템 구성 이미지 첨부할 것
 ![](./imgs/system_config.png)
 
-## Hardware Maintainence
+## 하드웨어 관리
 
-Wiring Imaage
+배선 이미지 첨부할 것
 ![](./imgs/hardware_diagram.png)
 
-## Maintainence Manual
+## 유지보수 메뉴얼
 
-### 1st Instruction
+### 지침 1
 
-1st content
+내용
 
-### 2nd Instruction
+### 지침 2
 
-2nd content
+내용
 
-## GitHub Tree
+## GitHub 파일 구조
 
 📦konkuk-icteam-student <br/>
  ┣ 📂attendance_fingerprint <br/>
@@ -40,16 +40,12 @@ Wiring Imaage
  ┃ ┃ ┗ 📜fingerprint_attendance_v1.py <br/>
  ┃ ┗ 📜README.md
 
-## Caution
+## 개발
 
-Content
+| 프로필 | 연락처 | 역할 |
+| ------ | ------ |------ |
+| <div align="center"><img src="https://github.com/ESWContest-A2B2/2023ESWContest/assets/141810581/dd8736d0-a3ea-4dae-8b10-202b5c2a2855" width="90px;" alt=""/><br/><sub><b>Minyoung Ji</b><sub></a></div> | <div align="center">adamminyoung@konkuk.ac.kr | H/W 개발 - 라즈베리파이에서 구동하는 지문인식 프로그램 개발 |
 
-## Constribution
-
-| Profile | Position | Contact | Role |
-| ------- | -------- |---- | ---- |
-| <div align="center"><img src="https://github.com/ESWContest-A2B2/2023ESWContest/assets/141810581/dd8736d0-a3ea-4dae-8b10-202b5c2a2855" width="90px;" alt=""/><br/><sub><b>Minyoung Ji</b><sub></a></div> | <div align="center">Undergraduate<br/> | <div align="center">adamminyoung@konkuk.ac.kr | H/W Development - Development of Fingerprint Recognition Program |
-
-## Todos
+## 할 일
 
 - Code Optimiztion
