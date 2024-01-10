@@ -31,11 +31,11 @@ Wiring Imaage
 
 📦konkuk-icteam-student <br/>
  ┣ 📂attendance_fingerprint <br/>
- ┃ ┗ 📂image <br/>
+ ┃ ┣ 📂image <br/>
  ┃ ┃ ┣ 🖼️img1.png <br/>
  ┃ ┃ ┗ 🖼️img2.png <br/>
- ┣ 📂python <br/>
- ┃ ┗ 📜fingerprint_attendance_v1.py <br/>
+ ┃ ┣ 📂python <br/>
+ ┃ ┃ ┗ 📜fingerprint_attendance_v1.py <br/>
  ┃ ┗ 📜README.md
 
 ## Caution
