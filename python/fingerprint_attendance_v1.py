@@ -15,7 +15,7 @@ uart = serial.Serial("/dev/ttyAMA0", baudrate=57600, timeout=1)
 finger = adafruit_fingerprint.Adafruit_Fingerprint(uart)
 
 # URL 주소를 입력해주세요.
-WEBHOOK_URL = "https://teamroom.nate.com/api/webhook/356f39d5/SubUrjmPO6HTqeyuMJ45ytKe"
+WEBHOOK_URL = "http://203.252.168.72:8080/user/attendance"
 
 # 텍스트 초기화용 함수
 def clear_message():
@@ -45,22 +45,20 @@ def show_data():
 # 데이터를 서버에 전송하는 함수
 def send_to_server(action, name):
     data = {
-        "출근/퇴근": action,
+        # "출근/퇴근": action,
         "학번": name,
-        "시간": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        # "시간": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     }
     
-    formatted_data = f"학번: {data['학번']}"
-    
-    encoded_data = urlencode({"content": formatted_data})
+    formatted_data = {"userId": data['학번']}
     
     headers = {
-        'Content-Type': 'application/x-www-form-urlencoded'
+        'Content-Type': 'application/json'
     }
 
     try:
-        response = requests.post(WEBHOOK_URL, data=encoded_data, headers=headers)
-        if response.status_code != 200:
+        response = requests.post(WEBHOOK_URL, json=formatted_data, headers=headers)
+        if response.status_code != 201:
             print(f"Failed to send data. Status code: {response.status_code}")
     except Exception as e:
         print(f"Error occurred: {e}")
