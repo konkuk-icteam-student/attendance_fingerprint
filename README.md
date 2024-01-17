@@ -50,6 +50,10 @@ Content
 | ------- | -------- |---- | ---- |
 | <div align="center"><img src="https://github.com/ESWContest-A2B2/2023ESWContest/assets/141810581/dd8736d0-a3ea-4dae-8b10-202b5c2a2855" width="90px;" alt=""/><br/><sub><b>Minyoung Ji</b><sub></a></div> | <div align="center">Undergraduate<br/> | <div align="center">adamminyoung@konkuk.ac.kr | H/W Development - Development of Fingerprint Recognition Program |
 
+## Update Log
+
+-
+
 ## Todos
 
 - Code Optimiztion
