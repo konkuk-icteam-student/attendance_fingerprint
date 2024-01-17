@@ -246,7 +246,7 @@ def clock_in():
             if server_response == 201:
                 result_label.config(text=f"출근 시간: {current_time}\n{identified_user} 출근 완료")
             else:
-                result_label.config(text="출근 처리 실패!")         
+                result_label.config(text="출근 처리 실패!: 서버 전송 오류")         
         else:
             result_label.config(text="미등록 사용자 감지됨")
 
@@ -287,8 +287,11 @@ def clock_out():
 
         if identified_user:
             current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            result_label.config(text=f"퇴근 시간: {current_time}\n{identified_user} 퇴근 완료")
-            send_to_server("출근", identified_user)
+            server_response = send_to_server("퇴근", identified_user)
+            if server_response == 201:
+                result_label.config(text=f"퇴근 시간: {current_time}\n{identified_user} 출근 완료")
+            else:
+                result_label.config(text="퇴근 처리 실패!: 서버 전송 오류")         
         else:
             result_label.config(text="미등록 사용자 감지됨")
 
