@@ -52,7 +52,9 @@ Content
 
 ## Update Log
 
--
+- 24/01/10 fingerprint_attendance_v1.py uploaded
+- 24/01/17 fixed: modified "clock_in" to address the issue of displaying "Clock In Complete" even when fingerprint data is not sent to the server.
+- 24/01/17 fingerprint_attendance_v2.py uploaded 
 
 ## Todos
 
