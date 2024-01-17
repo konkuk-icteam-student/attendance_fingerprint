@@ -63,7 +63,7 @@ def send_to_server(action, name):
         return response.status_code
     except Exception as e:
         print(f"Error occurred: {e}")
-        reuturn None
+        return None
 
 # 지문 등록 함수
 def enroll_finger(location, name):
