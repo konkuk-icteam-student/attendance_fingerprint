@@ -55,7 +55,11 @@ Content
 
 - 24/01/10 fingerprint_attendance_v1.py uploaded
 - 24/01/17 fixed: modified "clock_in" to address the issue of displaying "Clock In Complete" even when fingerprint data is not sent to the server.
-- 24/01/17 fingerprint_attendance_v2.py uploaded 
+- 24/01/17 fingerprint_attendance_v2.py uploaded
+- 24/01/18 updated: modified 'clock_in' & 'clock_out' to display the message in green when Clock In/Out is completed, and in red when the process is not successful.
+- 24/01/18 updated: increased the size of the message display area by about three times to enhance readability.
+- 24/01/81 updated: added an entry field to also receive the name, not just the ID, and modified the enroll_finger function accordingly.
+- 24/01/18 finger_attendance_v3.py uploaded
 
 ## Todos
 
