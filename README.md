@@ -3,7 +3,7 @@
 ## Fingerprint Recognization Project
 
 </div>
-<div align="center"><img src="https://github.com/konkuk-icteam-student/attendance_fingerprint/assets/107067111/cb9ff888-73f9-4ef8-9a3b-5401bdbf8805" alt=""/></div>
+<div align="center"><img src="https://github.com/konkuk-icteam-student/attendance_fingerprint/assets/107067111/731e0c25-a264-47ef-8355-ff20014bc242" alt=""/></div>
 
 ## System Functionality
 
