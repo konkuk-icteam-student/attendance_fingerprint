@@ -51,6 +51,7 @@ Content
 | Profile | Position | Contact | Role |
 | ------- | -------- |---- | ---- |
 | <div align="center"><img src="https://github.com/ESWContest-A2B2/2023ESWContest/assets/141810581/dd8736d0-a3ea-4dae-8b10-202b5c2a2855" width="90px;" alt=""/><br/><sub><b>Minyoung Ji</b><sub></a></div> | <div align="center">Undergraduate<br/> | <div align="center">adamminyoung@konkuk.ac.kr | H/W Development - Development of Fingerprint Recognition Program |
+| <div align="center"><img src="https://github.com/konkuk-icteam-student/attendance_fingerprint/assets/107067111/5fa7a403-0974-4160-8d50-5a53c9161263" width="90px;" alt=""/><br/><sub><b>Hojun Kim</b><sub></a></div> | <div align="center">Undergraduate<br/> | <div align="center">@konkuk.ac.kr | H/W Development - Maintenance of Fingerprint Recognition Program |
 
 ## Update Log
 
