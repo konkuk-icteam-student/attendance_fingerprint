@@ -19,7 +19,7 @@ WEBHOOK_URL = "http://203.252.168.72:8080/user/attendance"
 
 # 텍스트 초기화용 함수
 def clear_message():
-    result_label.config(text="")
+    result_label.config(text="")a
 
 # 데이터 조회용 창 생성 함수
 def show_data():
