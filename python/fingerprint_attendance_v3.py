@@ -245,12 +245,13 @@ def clock_in():
             score = f.compareCharacteristics()
             if score > best_score:
                 best_score = score
+                identified_id = row[1]
                 identified_user = row[3]
                 location = row[2]
 
         if identified_user:
             current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            server_response = send_to_server(1, identified_user)
+            server_response = send_to_server(1, identified_id)
             if server_response == 201:
                 result_label.config(text=f"출근 시간: {current_time}\n{identified_user} 출근 완료", fg='green')
             else:
@@ -290,12 +291,13 @@ def clock_out():
             score = f.compareCharacteristics()
             if score > best_score:
                 best_score = score
+                identified_id = row[1]
                 identified_user = row[3]
                 location = row[2]
 
         if identified_user:
             current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            server_response = send_to_server(0, identified_user)
+            server_response = send_to_server(0, identified_id)
             if server_response == 201:
                 result_label.config(text=f"퇴근 시간: {current_time}\n{identified_user} 퇴근 완료", fg='green')
             else:
@@ -376,7 +378,7 @@ clock_out_button = tk.Button(clock_frame, text="퇴근", command=clock_out, font
 clock_out_button.pack(side=tk.LEFT, padx=20, pady=20)
 
 # 결과 표시 레이블
-result_label = tk.Label(frame, text="", font=("Arial", 70))
+result_label = tk.Label(frame, text="", font=("Arial", 60))
 result_label.pack(side=tk.BOTTOM)
 
 # Tkinter 애플리케이션 실행
