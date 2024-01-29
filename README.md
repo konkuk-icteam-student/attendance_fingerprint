@@ -62,7 +62,7 @@ Content
 - 24/01/18 updated: increased the size of the message display area by about three times to enhance readability.
 - 24/01/18 updated: added an entry field to also receive the name, not just the ID, and modified the enroll_finger function accordingly.
 - 24/01/18 finger_attendance_v3.py uploaded
-- 24/01/24 mionr update on finger_attendance_v3.py
+- 24/01/24 minor updates on finger_attendance_v3.py
 
 ## Todos
 
